@@ -1,0 +1,38 @@
+.project-item-container {
+    width: 400px;
+    height: 400px;
+    background: #1e272e;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 15px;
+  }
+  
+  
+  
+
+  
+  .project-item-title {
+    font-family: 'Lilita One', cursive;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    color: #f5f2f0;
+    margin: 0;
+  }
+  
+  .project-item-description {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    color: #cee041;
+  }
+  .link-items{
+    font-family: 'Roboto';
+    color: #f50733;
+  }
+  

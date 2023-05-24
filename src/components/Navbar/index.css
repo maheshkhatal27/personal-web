@@ -1,0 +1,138 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.navbar-container{
+    height: 60px;
+    width: 100%;
+    background-color:#220b52;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed; 
+    top:0;
+    left:0;
+    z-index: 100;
+}
+.logo-container{
+    background-color: #f77511;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 10px;
+
+}
+.logo-name{
+    color:#24062e;
+    font-family: 'IBM Plex Mono', monospace;
+}
+#menu-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.item {
+    text-decoration: none;
+    margin:0px 20px 0px 20px;
+    color: #f58002;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    position:relative;
+    cursor: pointer;
+}
+.active{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* css related to making navbar interactive */
+
+.item::before{
+    content:'';
+    height:40px;
+    width:40px;
+    position:absolute;
+    top:-10px;
+    left:-10px;
+    transition: all 0.4s;
+}
+
+.item:hover:before{
+    width:100%;
+    height: 100%;
+    border-top:3px solid #29cf9d;
+    border-left:3px solid #29cf9d;
+}
+
+
+.item::after{
+    content:'';
+    height:40px;
+    width:40px;
+    position:absolute;
+    bottom:-10px;
+    right:-10px;
+    transition: all 0.4s;
+}
+
+.item:hover:after{
+    width:100%;
+    height: 100%;
+    border-bottom:3px solid #29cf9d;
+    border-right:3px solid #29cf9d;
+
+}
+
+/*....making navbar reponsive*/
+
+#mobile{
+    display: none;
+}
+.navbar-icon{
+    color: #fff;
+}
+
+@media screen and (max-width:767px) {
+    .navbar-container{
+        flex-direction: row;
+        height: 70px;
+    }
+    #menu-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: fixed;
+        top: 70px;
+        right: 0px;
+        width: 650px;
+        height: 100vh;
+        background: #2a3239;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        padding: 40px 0 0 10px;
+        transition: 0.3s ease-in-out;
+    }
+
+    #menu-container.active{
+        right: -650px;
+    } 
+    #mobile{
+        display: block;
+    }
+    .item{
+        margin-bottom: 30px;
+        font-size: 45px;
+    }
+    .navbar-icon{
+        font-size: 55px;
+        cursor: pointer;
+    }
+    .logo-container{
+        margin-left: 320px;
+    }
+}

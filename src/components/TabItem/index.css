@@ -1,0 +1,29 @@
+.tab-item-container {
+    padding-right: 4px;
+  }
+  
+ 
+  
+  .tab-btn {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #0b1de0;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border-width: 0px;
+    
+  }
+  
+  
+  .active-tab-btn {
+    color: #6a07a3;    
+    border-width: 0px;
+    border-bottom: 2px solid #c7044f;
+    background-color: #b59f93;
+    border-radius: 3px;
+    padding: 7px;
+    
+  }
+  

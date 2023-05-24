@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #edf2c9;
+    font-family: 'Kanit', sans-serif;;
+  }
+  
+
+  .time-element{
+    background-color: #1e272e;
+  }
+  .color-date{
+    color:#fff;
+  }
+  .journey{
+    font-family: 'Russo One', sans-serif;
+    color:#073837;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 12px;
+    margin-top: 80px;
+  }
