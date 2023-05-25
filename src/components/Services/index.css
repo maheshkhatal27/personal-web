@@ -22,7 +22,7 @@
 }
 .box{
     background-color: transparent;
-    width:53.33%;
+    width:70%;
     float:left;
     padding: 15px;
     
@@ -83,4 +83,17 @@ li{
 .tech-name{
     text-decoration: underline;
     color:#f4f5d3;
+}
+
+@media screen and (max-width:550px) {
+    .box{
+       
+        width:90%;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .box{
+        width:90%;
+    }
 }

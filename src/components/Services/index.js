@@ -5,10 +5,10 @@ const Services = () => {
   return (
     <>
       <Navbar />
-      <center><h1 class="service-heading">SERVICES</h1></center>
-          <div class="content">
-            <div class="box">
-              <div class="inner">
+      <center><h1 className="service-heading">SERVICES</h1></center>
+          <div className="content">
+            <div className="box">
+              <div className="inner">
                 <h3 className='tech-name'>FRONT END TECHNOLOGIES</h3>
                 <ul>
                   <li>HTML 5</li>
@@ -20,8 +20,8 @@ const Services = () => {
                 </ul>
               </div>
             </div>
-            <div class="box">
-              <div class="inner">
+            <div className="box">
+              <div className="inner">
               <h3 className='tech-name'>BACKEND TECH/LANGUAGES</h3>
                 <ul>
                   <li>NODE JS</li>
@@ -34,8 +34,8 @@ const Services = () => {
                 </ul>
               </div>
             </div>
-            <div class="box">
-              <div class="inner">
+            <div className="box">
+              <div className="inner">
               <h3 className='tech-name'>DATABSE</h3>
                 <ul>
                   <li>MYSQL</li>
@@ -45,8 +45,8 @@ const Services = () => {
                 </ul>
               </div>
             </div>
-            <div class="box">
-              <div class="inner">
+            <div className="box">
+              <div className="inner">
               <h3 className='tech-name'>OTHER TECH. PRODUCTS AND TOOLS</h3>
                 <ul>
                   <li>TIBCO BUSINESSWORKS</li>
@@ -54,7 +54,7 @@ const Services = () => {
                   <li>VISUAL STUDIO</li>
                   <li>ECLIPSE</li>
                   <li>MAVEN</li>
-                  <li>FIREBASE</li>
+                  <li>FIREBASE/RAILWAY/HEROKU</li>
                   <li>GIT</li>
                 </ul>
               </div>

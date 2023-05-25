@@ -2,7 +2,6 @@
 .top-heading{
   margin-top: 80px;
   font-family: 'Russo One', sans-serif;
-
 }
 .tabs-container {
     display: flex;
@@ -22,3 +21,28 @@
     
   }
   
+.tab-project-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width:650px) {
+  .top-heading{
+    font-size: 20px;
+  }
+  .project-list-container {
+    min-width: 650px;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .top-heading{
+    font-size: 18px;
+  }
+  .project-list-container {
+    min-width: 400px;
+    margin-left: 10px;
+  }
+}

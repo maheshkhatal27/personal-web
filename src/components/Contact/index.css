@@ -19,7 +19,7 @@
     align-items: center;
     background-color: #1e272e;
     background-size: cover;
-    padding: 30px;
+    padding: 50px;
     border-radius: 5px;
     box-shadow: 7px 7px 10px 7px #888888;
 }
@@ -103,3 +103,4 @@
     height: 80px;
     }
 }
+

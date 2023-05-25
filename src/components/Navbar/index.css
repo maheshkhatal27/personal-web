@@ -135,4 +135,36 @@
     .logo-container{
         margin-left: 320px;
     }
+    
+}
+
+
+
+
+@media screen and (max-width:550px) {
+    
+    .item{
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+    .navbar-icon{
+        font-size: 30px;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+    .logo-container{
+        margin-left: 40px;
+    }
+    .logo-name{
+        font-size: 22px;
+    }
+
+    #menu-container{
+        width: 350px;
+        height: 100vh;
+    }
+
+    #menu-container.active{
+        right: -350px;
+    }
 }

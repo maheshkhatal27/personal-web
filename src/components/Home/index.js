@@ -10,8 +10,8 @@ const Home = () => {
       <Navbar />
       <div className="bg-container">
         <div className="profile-img-container">
-          <div class="text-container">
-            <span class="text">
+          <div className="text-container">
+            <span className="text">
               Hello, I am <span className="mahesh">Mahesh Khatal</span>,
               <br /> a <span id="software-dev">software developer</span> <br /> <span className="location">from 
               Mumbai,India.</span>
@@ -27,7 +27,7 @@ const Home = () => {
         </div>
         <div className="contact-container">
           <h3 className="get-in-touch">Contact Me</h3>
-          <i class="fa-solid fa-2x fa-hand-point-down"></i>
+          <i className="fa-solid fa-2x fa-hand-point-down"></i>
         </div>
         <div className="icon-container">
           <a
@@ -36,7 +36,7 @@ const Home = () => {
             rel="noreferrer"
             className="icon"
           >
-            <i class="fa-brands fa-2x fa-twitter"></i>
+            <i className="fa-brands fa-2x fa-twitter"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/maheshkhatal/"
@@ -44,7 +44,7 @@ const Home = () => {
             rel="noreferrer"
             className="icon"
           >
-            <i class="fa-brands fa-2x fa-linkedin"></i>
+            <i className="fa-brands fa-2x fa-linkedin"></i>
           </a>
           <a
             href="https://github.com/maheshkhatal27"
@@ -52,7 +52,7 @@ const Home = () => {
             rel="noreferrer"
             className="icon"
           >
-            <i class="fa-brands fa-2x fa-github"></i>
+            <i className="fa-brands fa-2x fa-github"></i>
           </a>
         </div>
       </div>

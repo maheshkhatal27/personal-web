@@ -13,7 +13,6 @@
     outline: none;
     cursor: pointer;
     border-width: 0px;
-    
   }
   
   
@@ -27,3 +26,11 @@
     
   }
   
+  @media screen and (max-width:919px) {
+    .tab-btn{
+      font-size: 18px;
+    }
+    .active-tab-btn{
+      padding: 3px;
+    }
+  }

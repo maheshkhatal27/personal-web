@@ -38,8 +38,9 @@ const About = () => {
               iconStyle={isWorkIcon ? workIconStyle : schoolIconStyle} 
               icon={isWorkIcon ? <BsPersonWorkspace /> :<FaUserGraduate />}
               >
-                <h3 className='vertical-timeline-element-title'>{element.title}</h3>
-                <h5 className='vertical-timeline-element-subtitle'>{element.location}</h5>
+                <h3 className='vertical-timeline-element-title' id='title-location'>{element.title}</h3>
+                <h5 className='vertical-timeline-element-subtitle' id='title-location'>{element.location}</h5>
+                <h6 id='display-year'>{element.year}</h6>
               </VerticalTimelineElement>
              ) 
           })
