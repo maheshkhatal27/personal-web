@@ -14,7 +14,7 @@ let timeLineElements=[{id:1,title:"SSC",year:"2006",location:"Mumbai,Maharashtra
 {id:6,title:"M.A. in Public Administration",year:"2018-2020",location:"IGNOU,New Delhi",icon:"study"},
 {id:7,title:"Trainee MERN Stack Developer @Nxtwave",year:"May 2022- May 2023",location:"Mumbai,MH",icon:"work"},
 {id:8,title:"JAVA Full Stack Developer @IOT Academy,IIT Guwahati",year:"Jan 2023- July 2023",location:"Mumbai,MH",icon:"work"},
-{id:9,title:"Technical Consultant Trainee @ITNow Inc.",year:"June 2023- Present",location:"USA",icon:"work"},
+{id:9,title:"Technical Consultant Trainee @ITNow Inc.",year:"June 2023- Present",location:"ALbany,NY,USA(WFH)",icon:"work"},
 ]
 
 
